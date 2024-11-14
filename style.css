@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6f8fa;
+  }
+  
+  .github-signin-box {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #d1d5da;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .github-image img {
+    margin-bottom: 15px;
+  }
+  
+  .header-github h1 {
+    font-size: 1.5em;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .username,
+  .password {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .username label,
+  .password label {
+    font-size: 0.9em;
+    color: #24292e;
+  }
+  
+  .username input,
+  .password input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+    margin-top: 5px;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+  }
+  
+  .forgot-password a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-btn {
+    margin-bottom: 20px;
+  }
+  
+  .login-btn button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ea44f;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .login-btn button:hover {
+    background-color: #218838;
+  }
+  
+  hr {
+    border: 1px solid #d1d5da;
+    margin: 20px 0;
+  }
+  
+  .signin-with-passkey input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #24292e;
+  }
+  
+  .signin-with-passkey input[type="submit"]:hover {
+    background-color: #e1e4e8;
+  }
+  
+  .new-box {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #586069;
+  }
+  
+  .new-box a {
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .new-box a:hover {
+    text-decoration: underline;
+  }
+  
