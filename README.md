@@ -70,4 +70,4 @@ While the base version is static, CSS properties like:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/github-signin-page.git
+   git clone https://github.com/M-Aayan/github-signin-page.git
